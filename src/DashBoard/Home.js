@@ -1,5 +1,5 @@
 import '../App.css'
-import myVideo from './Assests/Front.mp4';
+import myVideo from '../Assests/Front.mp4';
 import FrequentlyQuestion from './FrequentlyQuestion';
 
 function Home() {

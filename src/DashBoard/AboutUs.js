@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import Hospital from './Assests/hospital.jpg';
+import Hospital from '../Assests/hospital.jpg';
 function AboutUs() {
 
   document.title = "About Us | Al-Shams Hospital";

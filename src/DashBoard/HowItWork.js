@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 import '../App.css';
-import pic1 from './Assests/pic1.jpg';
-import pic2 from './Assests/pic2.jpg';
-import pic3 from './Assests/pic3.jpg';
-import pic4 from './Assests/pic4.jpg';
+import pic1 from '../Assests/pic1.jpg';
+import pic2 from '../Assests/pic2.jpg';
+import pic3 from '../Assests/pic3.jpg';
+import pic4 from '../Assests/pic4.jpg';
 function HowItWork() {
   document.title = "How It Work | Al-Shams Hospital";
   return (

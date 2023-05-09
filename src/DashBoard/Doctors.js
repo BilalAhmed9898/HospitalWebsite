@@ -1,11 +1,11 @@
 import { Avatar, Text, Paper, Container } from '@mantine/core';
 import Button from 'react-bootstrap/Button';
-import Doctor1 from './Assests/Doctor1.jpg';
-import Doctor2 from './Assests/Doctor2.webp';
-import Doctor3 from './Assests/Doctor3.jpg';
-import Doctor22 from './Assests/Doctor2.jpg';
-import Doctor4 from './Assests/Doctor4.jpg';
-import Doctor5 from './Assests/Doctor5.jfif';
+import Doctor1 from '../Assests/Doctor1.jpg';
+import Doctor2 from '../Assests/Doctor2.webp';
+import Doctor3 from '../Assests/Doctor3.jpg';
+import Doctor22 from '../Assests/Doctor2.jpg';
+import Doctor4 from '../Assests/Doctor4.jpg';
+import Doctor5 from '../Assests/Doctor5.jfif';
 import { NavLink } from 'react-router-dom';
 import '../App.css'
 

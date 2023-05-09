@@ -1,12 +1,11 @@
 import Container from 'react-bootstrap/Container';
-import CloseButton from 'react-bootstrap/CloseButton';
 import './App.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaHeartbeat, FaHospital ,FaHospitalAlt} from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-import Whatsapp from './DashBoard/Assests/pngwing.com.png';
-import Emergancy from './DashBoard/Assests/Emergancy.png';
+import Whatsapp from './Assests/pngwing.com.png';
+import Emergancy from './Assests/Emergancy.png';
 
 
 function NavbarTop() {

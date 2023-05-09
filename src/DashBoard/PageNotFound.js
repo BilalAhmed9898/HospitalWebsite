@@ -8,7 +8,7 @@ import {
   SimpleGrid,
   rem,
 } from '@mantine/core';
-import NotFound from './Assests/Image.svg';
+import NotFound from '../Assests/Image.svg';
 import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
