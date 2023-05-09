@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Live View alshamhospital.netlify.app
+Live View (https://alshamshospital.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
