@@ -18,20 +18,24 @@ export default function Appointment() {
     time: '',
     date: '',
   })
-  const [isLoading, setIsLoading] = useState(false);
   const handleSubmit = () => {
     if (!values.age || !values.name || !values.type || !values.time || !values.date) {
       return alert("Fill all Feilds")
     }
     else {
+      const allData = JSON.parse(localStorage.getItem("Appointment"))
+
+      if (!allData) {
+        localStorage.setItem('Appointment', JSON.stringify([values]))
+        alert("Appointment Submitted . Refresh the page You will see your Appointments")
+      }
+      else {
+        localStorage.setItem('Appointment', JSON.stringify([...allData, values]))
+        alert("Appointment Submitted . Refresh the page You will see your Appointments")
+      }
       console.log(values)
-      alert("Appointment Submitted")
     }
   };
-
-  setTimeout(function () {
-    setIsLoading(false)
-  }, 3000);
 
 
 
